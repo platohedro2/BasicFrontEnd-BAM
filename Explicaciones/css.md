@@ -60,4 +60,91 @@ form input[type="submit"] { ... }
 
  Este selector aplica los estilos al elemento input de tipo submit dentro de un elemento
 
+
+
+
 ~~~
+#counter {
+	font-size: 144px;
+	margin-top: 50px;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #004cff, 0 0 70px #1100ff, 0 0 80px #002aff, 0 0 100px #002aff;
+}
+
+~~~
+* #counter: Este selector CSS aplica los estilos a un elemento con el id "counter".
+
+* font-size: 144px;: Este estilo establece el tamaño de fuente a 144px.
+
+* margin-top: 50px;: Este estilo establece un margen superior de 50px.
+
+* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #004cff, 0 0 70px #1100ff, 0 0 80px #002aff, 0 0 100px #002aff;: Este estilo establece una sombra de texto con varios niveles de profundidad y colores.
+
+~~~
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 24px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #186d31, 0 0 70px #01f452, 0 0 80px #04ff00, 0 0 100px #00ff2a;
+	background-color: #fff;
+	color: #000;
+	text-shadow: 0 0 10px #00ff7b, 0 0 20px #23db0a, 0 0 30px #00ff1e, 0 0 40px #00f010;
+	cursor: pointer;
+}
+
+~~~
+
+.button: Este selector CSS aplica los estilos a un elemento con la clase "button".
+
+display: inline-block;: Este estilo establece la visualización del elemento como un bloque en línea.
+
+padding: 10px 20px;: Este estilo establece el relleno interno de 10px en la parte superior e inferior y 20px en los lados izquierdo y derecho.
+
+margin: 20px;: Este estilo establece un margen de 20px en todos los lados del elemento.
+
+font-size: 24px;: Este estilo establece el tamaño de fuente a 24px.
+
+border: 2px solid #fff;: Este estilo establece un borde sólido de 2px de ancho con un color blanco (#fff).
+
+border-radius: 50px;: Este estilo establece un radio de borde de 50px.
+
+box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #186d31, 0 0 70px #01f452, 0 0 80px #04ff00, 0 0 100px #00ff2a;: Este estilo establece una sombra de caja con varios niveles de profundidad y colores.
+
+background-color: #fff;: Este estilo establece el color de fondo del elemento en blanco (#fff).
+
+color: #000;: Este estilo establece el color de texto en negro (#000).
+
+text-shadow: 0 0 10px #00ff7b, 0 0 20px #23db0a, 0 0 30px #00ff1e, 0 0 40px #00f010;: Este estilo establece una sombra de texto con varios niveles de profundidad y colores.
+
+cursor: pointer;: Este estilo establece el cursor del mouse como un puntero para indicar que el elemento es interactivo.
+
+~~~
+.button:hover {
+	background-color: #ff00de;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0
+
+
+70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;: Este estilo establece una sombra de texto con varios niveles de profundidad y colores cuando el cursor se coloca encima del botón.
+
+box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;: Este estilo establece una sombra de caja con varios niveles de profundidad y colores cuando el cursor se coloca encima del botón.
+
+.limite-alcanzado {
+  color: red;
+}
+.limite-alcanzado: Este selector CSS aplica los estilos a un elemento con la clase "limite-alcanzado".
+
+color: red;: Este estilo establece el color de texto en rojo (#ff0000).
+
+.nueva{
+    text-align: center;
+    background-color: #908989;
+}
+.nueva: Este selector CSS aplica los estilos a un elemento con la clase "nueva".
+
+text-align: center;: Este estilo establece la alineación del texto en el centro.
+
+background-color: #908989;: Este estilo establece el color de fondo en gris (#908989).

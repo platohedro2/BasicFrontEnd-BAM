@@ -1,0 +1,181 @@
+
+/* Estilos generales de la página */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+   
+}
+
+/* Estilos del encabezado de la página */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #e15656;
+	text-decoration: none;
+}
+
+/* Estilos del formulario de contacto */
+form {
+	background-color: #f3f3f3;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Estilos de la lista de productos */
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+li {
+	flex-basis: calc(33.33% - 20px);
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	background-color: #f3f3f3;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Estilos del slider de imágenes */
+.slider {
+	display: flex;
+	overflow: hidden;
+}
+
+.slider img {
+	flex-shrink: 0;
+	width: 100%;
+}
+
+/* Estilos del pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.slider img.active {
+  display: block;
+}
+
+.slider img {
+  display: none;
+}
+
+
+
+
+
+
+
+
+#counter {
+	font-size: 144px;
+	margin-top: 50px;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #004cff, 0 0 70px #1100ff, 0 0 80px #002aff, 0 0 100px #002aff;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px;
+	font-size: 24px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #186d31, 0 0 70px #01f452, 0 0 80px #04ff00, 0 0 100px #00ff2a;
+	background-color: #fff;
+	color: #000;
+	text-shadow: 0 0 10px #00ff7b, 0 0 20px #23db0a, 0 0 30px #00ff1e, 0 0 40px #00f010;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #ff00de;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+	box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+}
+
+.limite-alcanzado {
+  color: red;
+}
+
+.nueva{
+    text-align: center;
+    background-color: #908989;
+}
